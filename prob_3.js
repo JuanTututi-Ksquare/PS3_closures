@@ -1,5 +1,5 @@
 function donkeyGame(amountOfTries) {
-  const tail = Math.floor(Math.random() * 10);
+  const tail = Math.floor(Math.random() * 11);
   console.log("The tail is:", tail)
   let tries = 0;
   return function check(guess) {
